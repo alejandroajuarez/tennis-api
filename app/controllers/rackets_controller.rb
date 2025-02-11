@@ -13,9 +13,14 @@ class RacketsController < ApplicationController
     
   # end
 
-  # def create
-    
-  # end
+  def create
+    @racket = Racket.create(
+      head_size:  params[:head_size],
+      mass:       params[:mass],
+      price:      params[:price]
+    )
+    render :show
+  end
 
   # def destroy
     
