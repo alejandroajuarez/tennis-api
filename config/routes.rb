@@ -11,4 +11,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get "/rackets" => "rackets#index"
+  get "/rackets/:id" => "rackets#show"
+  patch "/rackets/:id" => "rackets#update"
+  post "/rackets" => "rackets#create"
+  delete "/rackets/:id" => "rackets#destroy"
 end

@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  head_size: 1
+  mass: MyString
+  price: MyString
+
+two:
+  head_size: 1
+  mass: MyString
+  price: MyString
