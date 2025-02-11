@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# racket1 = Racket.create(head_size: 10, mass: 100, price: "$59.99")
+# racket2 = Racket.create(head_size: 15, mass: 140, price: "$99.99")
+# racket3 = Racket.create(head_size: 20, mass: 120, price: "$74.99")
